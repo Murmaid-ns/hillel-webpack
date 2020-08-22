@@ -1,4 +1,6 @@
 import {sum} from "./math";
+import './style.css';
+import './style.scss';
 
 function checkField(obj) {
     return obj?.credentials?.name;
@@ -17,3 +19,4 @@ function getArrField(arr) {
 console.log(sum(2,2));
 
 console.log(getArrField([]))
+
